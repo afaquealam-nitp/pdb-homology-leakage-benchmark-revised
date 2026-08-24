@@ -1,0 +1,161 @@
+seed,id_train_bin,id_pre_bin,model,n,accuracy
+0,train<30,pre<30,1-NN (memorisation probe),0,
+0,train<30,pre<30,Linear SVM,0,
+0,train<30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+0,train<30,pre<30,ESM-2 650M frozen + linear probe,0,
+0,train<30,pre>=30,1-NN (memorisation probe),4467,0.2558764271323036
+0,train<30,pre>=30,Linear SVM,4467,0.2802775912245355
+0,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4467,0.4759346317438997
+0,train<30,pre>=30,ESM-2 650M frozen + linear probe,4467,0.6084620550705171
+0,train>=30,pre<30,1-NN (memorisation probe),0,
+0,train>=30,pre<30,Linear SVM,0,
+0,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+0,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+0,train>=30,pre>=30,1-NN (memorisation probe),5914,0.3523841731484612
+0,train>=30,pre>=30,Linear SVM,5914,0.3748731822793372
+0,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),5914,0.8486641866756848
+0,train>=30,pre>=30,ESM-2 650M frozen + linear probe,5914,0.8253297260737233
+1,train<30,pre<30,1-NN (memorisation probe),0,
+1,train<30,pre<30,Linear SVM,0,
+1,train<30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+1,train<30,pre<30,ESM-2 650M frozen + linear probe,0,
+1,train<30,pre>=30,1-NN (memorisation probe),4082,0.2312591866731994
+1,train<30,pre>=30,Linear SVM,4082,0.2787849093581577
+1,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4082,0.4830965213130818
+1,train<30,pre>=30,ESM-2 650M frozen + linear probe,4082,0.5658990690837825
+1,train>=30,pre<30,1-NN (memorisation probe),0,
+1,train>=30,pre<30,Linear SVM,0,
+1,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+1,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+1,train>=30,pre>=30,1-NN (memorisation probe),3101,0.3850370848113512
+1,train>=30,pre>=30,Linear SVM,3101,0.3585940019348597
+1,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),3101,0.7384714608190907
+1,train>=30,pre>=30,ESM-2 650M frozen + linear probe,3101,0.63495646565624
+2,train<30,pre<30,1-NN (memorisation probe),2,0.0
+2,train<30,pre<30,Linear SVM,2,0.0
+2,train<30,pre<30,Alignment top-hit transfer (MMseqs2),2,0.0
+2,train<30,pre<30,ESM-2 650M frozen + linear probe,2,0.0
+2,train<30,pre>=30,1-NN (memorisation probe),3728,0.2175429184549356
+2,train<30,pre>=30,Linear SVM,3728,0.2658261802575107
+2,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),3728,0.490343347639485
+2,train<30,pre>=30,ESM-2 650M frozen + linear probe,3728,0.6003218884120172
+2,train>=30,pre<30,1-NN (memorisation probe),0,
+2,train>=30,pre<30,Linear SVM,0,
+2,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+2,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+2,train>=30,pre>=30,1-NN (memorisation probe),3414,0.4428822495606327
+2,train>=30,pre>=30,Linear SVM,3414,0.3772700644405389
+2,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),3414,0.784124194493263
+2,train>=30,pre>=30,ESM-2 650M frozen + linear probe,3414,0.6991798476859988
+3,train<30,pre<30,1-NN (memorisation probe),4,0.25
+3,train<30,pre<30,Linear SVM,4,0.0
+3,train<30,pre<30,Alignment top-hit transfer (MMseqs2),4,0.25
+3,train<30,pre<30,ESM-2 650M frozen + linear probe,4,0.5
+3,train<30,pre>=30,1-NN (memorisation probe),4184,0.2363766730401529
+3,train<30,pre>=30,Linear SVM,4184,0.3052103250478011
+3,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4184,0.4923518164435946
+3,train<30,pre>=30,ESM-2 650M frozen + linear probe,4184,0.6030114722753346
+3,train>=30,pre<30,1-NN (memorisation probe),0,
+3,train>=30,pre<30,Linear SVM,0,
+3,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+3,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+3,train>=30,pre>=30,1-NN (memorisation probe),3977,0.3467437767161176
+3,train>=30,pre>=30,Linear SVM,3977,0.3769172743273824
+3,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),3977,0.8041237113402062
+3,train>=30,pre>=30,ESM-2 650M frozen + linear probe,3977,0.7224038219763641
+4,train<30,pre<30,1-NN (memorisation probe),3,0.3333333333333333
+4,train<30,pre<30,Linear SVM,3,0.0
+4,train<30,pre<30,Alignment top-hit transfer (MMseqs2),3,0.3333333333333333
+4,train<30,pre<30,ESM-2 650M frozen + linear probe,3,0.3333333333333333
+4,train<30,pre>=30,1-NN (memorisation probe),4133,0.2705056859424147
+4,train<30,pre>=30,Linear SVM,4133,0.3259133801112993
+4,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4133,0.4962496975562545
+4,train<30,pre>=30,ESM-2 650M frozen + linear probe,4133,0.6094846358577305
+4,train>=30,pre<30,1-NN (memorisation probe),0,
+4,train>=30,pre<30,Linear SVM,0,
+4,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+4,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+4,train>=30,pre>=30,1-NN (memorisation probe),4220,0.5561611374407583
+4,train>=30,pre>=30,Linear SVM,4220,0.5580568720379147
+4,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),4220,0.8511848341232228
+4,train>=30,pre>=30,ESM-2 650M frozen + linear probe,4220,0.8127962085308057
+5,train<30,pre<30,1-NN (memorisation probe),5,0.2
+5,train<30,pre<30,Linear SVM,5,0.0
+5,train<30,pre<30,Alignment top-hit transfer (MMseqs2),5,0.2
+5,train<30,pre<30,ESM-2 650M frozen + linear probe,5,0.2
+5,train<30,pre>=30,1-NN (memorisation probe),4348,0.2644894204231831
+5,train<30,pre>=30,Linear SVM,4348,0.2679392824287028
+5,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4348,0.5257589696412144
+5,train<30,pre>=30,ESM-2 650M frozen + linear probe,4348,0.5869365225390984
+5,train>=30,pre<30,1-NN (memorisation probe),0,
+5,train>=30,pre<30,Linear SVM,0,
+5,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+5,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+5,train>=30,pre>=30,1-NN (memorisation probe),3327,0.3769161406672678
+5,train>=30,pre>=30,Linear SVM,3327,0.3742110009017133
+5,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),3327,0.7562368500150286
+5,train>=30,pre>=30,ESM-2 650M frozen + linear probe,3327,0.7117523294259093
+6,train<30,pre<30,1-NN (memorisation probe),0,
+6,train<30,pre<30,Linear SVM,0,
+6,train<30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+6,train<30,pre<30,ESM-2 650M frozen + linear probe,0,
+6,train<30,pre>=30,1-NN (memorisation probe),4113,0.2265985898371018
+6,train<30,pre>=30,Linear SVM,4113,0.2839776318988573
+6,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4113,0.4731339654753221
+6,train<30,pre>=30,ESM-2 650M frozen + linear probe,4113,0.613663992219791
+6,train>=30,pre<30,1-NN (memorisation probe),0,
+6,train>=30,pre<30,Linear SVM,0,
+6,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+6,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+6,train>=30,pre>=30,1-NN (memorisation probe),3007,0.3967409378117725
+6,train>=30,pre>=30,Linear SVM,3007,0.3954107083471899
+6,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),3007,0.7482540738277352
+6,train>=30,pre>=30,ESM-2 650M frozen + linear probe,3007,0.6977053541735949
+7,train<30,pre<30,1-NN (memorisation probe),1,0.0
+7,train<30,pre<30,Linear SVM,1,0.0
+7,train<30,pre<30,Alignment top-hit transfer (MMseqs2),1,0.0
+7,train<30,pre<30,ESM-2 650M frozen + linear probe,1,0.0
+7,train<30,pre>=30,1-NN (memorisation probe),4027,0.245840576111249
+7,train<30,pre>=30,Linear SVM,4027,0.3071765582319344
+7,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4027,0.5001241619071269
+7,train<30,pre>=30,ESM-2 650M frozen + linear probe,4027,0.6357089644896946
+7,train>=30,pre<30,1-NN (memorisation probe),0,
+7,train>=30,pre<30,Linear SVM,0,
+7,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+7,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+7,train>=30,pre>=30,1-NN (memorisation probe),5991,0.399933233183108
+7,train>=30,pre>=30,Linear SVM,5991,0.442497078951761
+7,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),5991,0.8674678684693707
+7,train>=30,pre>=30,ESM-2 650M frozen + linear probe,5991,0.8087130696044066
+8,train<30,pre<30,1-NN (memorisation probe),4,0.25
+8,train<30,pre<30,Linear SVM,4,0.25
+8,train<30,pre<30,Alignment top-hit transfer (MMseqs2),4,0.0
+8,train<30,pre<30,ESM-2 650M frozen + linear probe,4,0.25
+8,train<30,pre>=30,1-NN (memorisation probe),4295,0.229336437718277
+8,train<30,pre>=30,Linear SVM,4295,0.289871944121071
+8,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4295,0.4763678696158324
+8,train<30,pre>=30,ESM-2 650M frozen + linear probe,4295,0.6311990686845169
+8,train>=30,pre<30,1-NN (memorisation probe),1,1.0
+8,train>=30,pre<30,Linear SVM,1,0.0
+8,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),1,1.0
+8,train>=30,pre<30,ESM-2 650M frozen + linear probe,1,1.0
+8,train>=30,pre>=30,1-NN (memorisation probe),5640,0.5420212765957447
+8,train>=30,pre>=30,Linear SVM,5640,0.5177304964539007
+8,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),5640,0.826418439716312
+8,train>=30,pre>=30,ESM-2 650M frozen + linear probe,5640,0.7469858156028368
+9,train<30,pre<30,1-NN (memorisation probe),1,0.0
+9,train<30,pre<30,Linear SVM,1,0.0
+9,train<30,pre<30,Alignment top-hit transfer (MMseqs2),1,0.0
+9,train<30,pre<30,ESM-2 650M frozen + linear probe,1,0.0
+9,train<30,pre>=30,1-NN (memorisation probe),4160,0.2485576923076923
+9,train<30,pre>=30,Linear SVM,4160,0.3177884615384615
+9,train<30,pre>=30,Alignment top-hit transfer (MMseqs2),4160,0.4776442307692308
+9,train<30,pre>=30,ESM-2 650M frozen + linear probe,4160,0.6201923076923077
+9,train>=30,pre<30,1-NN (memorisation probe),0,
+9,train>=30,pre<30,Linear SVM,0,
+9,train>=30,pre<30,Alignment top-hit transfer (MMseqs2),0,
+9,train>=30,pre<30,ESM-2 650M frozen + linear probe,0,
+9,train>=30,pre>=30,1-NN (memorisation probe),3858,0.4108346293416278
+9,train>=30,pre>=30,Linear SVM,3858,0.390357698289269
+9,train>=30,pre>=30,Alignment top-hit transfer (MMseqs2),3858,0.8154484188698807
+9,train>=30,pre>=30,ESM-2 650M frozen + linear probe,3858,0.7234318299637118

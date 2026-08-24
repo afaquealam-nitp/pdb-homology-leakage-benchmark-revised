@@ -1,0 +1,13 @@
+model,metric,split,mean,ci_low,ci_high
+1-NN (memorisation probe),macro_f1,cluster,0.2586,0.2411,0.2761
+Alignment top-hit transfer (MMseqs2),macro_f1,cluster,0.5491,0.5292,0.5689
+Logistic Regression,macro_f1,cluster,0.2223,0.205,0.2396
+Linear SVM,macro_f1,cluster,0.2471,0.2309,0.2634
+ESM-2 650M frozen + 1-NN,macro_f1,cluster,0.5815,0.5728,0.5902
+ESM-2 650M frozen + linear probe,macro_f1,cluster,0.5759,0.5562,0.5956
+1-NN (memorisation probe),accuracy,cluster,0.3322,0.3007,0.3636
+Alignment top-hit transfer (MMseqs2),accuracy,cluster,0.6479,0.6181,0.6777
+Logistic Regression,accuracy,cluster,0.371,0.3397,0.4023
+Linear SVM,accuracy,cluster,0.3554,0.3226,0.3882
+ESM-2 650M frozen + 1-NN,accuracy,cluster,0.6586,0.6299,0.6874
+ESM-2 650M frozen + linear probe,accuracy,cluster,0.6749,0.6425,0.7073

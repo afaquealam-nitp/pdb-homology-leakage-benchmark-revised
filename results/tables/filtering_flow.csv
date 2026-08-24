@@ -1,0 +1,12 @@
+step,description,n_sequences,note
+1,Raw rows in pdb_data_seq.csv,467304,
+2,Rows annotated macroType == 'Protein',345180,
+3,Protein chains with a usable label,345335,
+4,After dropping unknown-function classes,337204,"removed 8,131"
+5,Canonical 20 amino acids only,329367,"removed 7,837"
+6,Length 50-1000 residues,307517,"removed 21,850"
+7,After removing multi-label sequences,226098,"6,023 distinct seqs dropped"
+8,Collapsed to unique sequences,69815,
+9,Retained top-10 classes (FINAL),40211,
+,duplicate chains removed,231679,75.3% of filtered chains
+,multi-label distinct sequences removed,6023,7.9% of distinct sequences

@@ -1,0 +1,13 @@
+model,split,acc_mean,acc_std,f1_mean,f1_std
+1-NN (memorisation probe),cluster,0.3322,0.044,0.2586,0.0244
+1-NN (memorisation probe),random,0.8107,0.0044,0.7696,0.0058
+Alignment top-hit transfer (MMseqs2),cluster,0.6479,0.0416,0.5491,0.0277
+Alignment top-hit transfer (MMseqs2),random,0.8719,0.0042,0.8425,0.0051
+ESM-2 650M frozen + 1-NN,cluster,0.6586,0.0402,0.5815,0.0122
+ESM-2 650M frozen + 1-NN,random,0.8649,0.004,0.8269,0.0051
+ESM-2 650M frozen + linear probe,cluster,0.6749,0.0453,0.5759,0.0275
+ESM-2 650M frozen + linear probe,random,0.8442,0.0046,0.7974,0.0067
+Linear SVM,cluster,0.3554,0.0459,0.2471,0.0227
+Linear SVM,random,0.7059,0.0048,0.6663,0.007
+Logistic Regression,cluster,0.371,0.0437,0.2223,0.0242
+Logistic Regression,random,0.6674,0.006,0.6021,0.0075
