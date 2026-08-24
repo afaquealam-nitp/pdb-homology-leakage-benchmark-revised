@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, code, or results, please cite the paper below."
+type: article
+authors:
+  - family-names: Alam
+    given-names: Afaque
+    orcid: "https://orcid.org/0000-0002-5527-651X"
+    affiliation: "Department of Computer Science and Engineering, National Institute of Technology Patna"
+  - family-names: Kumar
+    given-names: Mukesh
+    orcid: "https://orcid.org/0000-0001-5668-3419"
+    affiliation: "Department of Computer Science and Engineering, National Institute of Technology Patna"
+year: 2026
+repository-code: "https://github.com/afaquealam-nitp/pdb-homology-leakage-benchmark"
+keywords:
+  - homology leakage
+  - identity-controlled evaluation
+  - protein functional-class classification
+  - protein language model
+  - ESM-2
+  - pretraining exposure
+license: MIT

@@ -1,0 +1,11 @@
+# Python dependencies for the PDB homology-leakage benchmark
+# Pin exact versions before archival (pip freeze). External tools (MMseqs2, DIAMOND)
+# are installed separately — see environment.md.
+numpy
+pandas
+scikit-learn
+scipy
+torch
+transformers
+matplotlib
+tqdm

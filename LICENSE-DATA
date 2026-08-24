@@ -1,0 +1,12 @@
+Data and results license: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+
+The curated dataset (data/processed/dataset_clustered.csv), result tables
+(results/tables/), and figures (results/figures/) in this repository are licensed
+under CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/
+
+The raw source data are redistributed from the RCSB Protein Data Bank via the Kaggle
+"Structural Protein Sequences" collection and remain subject to their original terms;
+see data/raw/README.md.
+
+You are free to share and adapt this material for any purpose, provided you give
+appropriate credit by citing the associated paper (see CITATION.cff).

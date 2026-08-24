@@ -1,0 +1,23 @@
+# Large raw data and regenerable intermediates are archived on Zenodo, not tracked here
+data/raw/*
+!data/raw/README.md
+results/interim/*
+!results/interim/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# Model weights / caches
+*.pt
+*.pth
+cache/
+*.h5
+
+# OS / editor
+.DS_Store
+Thumbs.db
